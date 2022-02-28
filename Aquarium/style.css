@@ -1,0 +1,245 @@
+
+body {
+    margin:0;
+    background-color: #001b31;
+    font-family: 'Oleo Script';
+}
+
+#header {
+    background-image: url(images/media/header-background.png);
+    width: 100%;
+    height: 127px;
+    margin-bottom: 0.2%;
+}
+#menu{
+    margin: auto;
+    width: 70%;
+}
+.menu{
+     float: right;
+    margin-bottom: 1%; 
+}
+.menu li{
+    display: inline;
+    font-size: 100%;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.menu li a:hover{
+    color: gray;
+}
+#logo {
+    height: 100%;
+    width: 30%;
+    margin: 0px;
+    float: left;
+    margin-top: 3%;
+}
+
+#buttons {
+    float: left;
+    height: 60%;
+    width: 60%
+}
+
+#contacts {
+    height: 40%;
+    float: right;
+    margin-top: 3%;
+}
+
+#m1{
+   height: 100%;
+    width: 460px;
+    float: right;
+}
+#gallery{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+#gallery img{
+    width: 20%;
+}
+
+.center {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+#whitefish{
+display: flex;
+    width: 960px;
+    background-image: url(images/media/wrapper1-background.png);
+    margin: auto;
+    margin-bottom: 2%;
+}
+.wftext {
+    width: 77%;
+    float: left;
+    font-size: 13px;
+    
+}
+.wfimg {
+    width: 20%;
+  
+}
+#whitefish img{
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+    margin-right: 12%;
+}
+.wf{
+    width: 100%;
+}
+#news {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    font-size: 7px;
+    
+}
+.new{
+    width: 960px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-family: 'Oleo Script';
+
+}
+.welcome, .news, .latest-reviews{
+    display: inline-block;
+}
+.welcome {
+    width: 305px;
+    margin-right: 40px;
+}
+.welcome img{
+    width: 305px;
+}
+.welcome h2, .welcome p{
+    width: 305px;
+    color: white;
+}
+.welcome h2{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.welcome button{
+    background-color: lightskyblue;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+.welcome button a{
+    font-weight: 20px;
+    text-decoration: none;
+    color:azure;
+}
+.news{
+    width: 305px;
+}
+.news h2, .news p{
+    color: white;
+}
+.news h2{
+    margin-top: 0px;
+}
+.news a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+.news img{
+    background-color: lightskyblue;
+}
+.news img:hover{
+    background-color: rgb(0, 27, 49);
+}
+.latest-reviews{
+    width: 305px;
+    margin-left: 40px;
+    border: 3px;
+    
+}
+.latest-reviews h2, .latest-reviews p{
+    color:white;
+}
+.latest-reviews h2{
+    margin-top: 0px;
+}
+.latest-reviews img{
+    float: left;
+    margin: 15px;
+    margin-left: 0px;
+}
+.latest-reviews button{
+    background-color: lightskyblue;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+.latest-reviews button a{
+    font-weight: 20px;
+    text-decoration: none;
+    color:white;
+}
+button:hover{
+    background-color: rgb(0, 27, 49);
+}
+.latest-reviews div{
+display: flex;
+}
+.foot{
+    width: 960px;
+    margin: auto;
+}
+.footer{
+    height: 100px;
+    background: url('images/media/header-background.png') no-repeat center top;
+    background-size: cover;
+    margin: 0px;
+}
+.policy{
+    float: left;
+    color: white;
+    margin-top: 50px;
+}
+.help{
+    float: right;
+    display: inline;
+    text-decoration:none;
+    margin-top: 50px;
+}
+.help li{
+    display: inline;
+    margin-right: 20px;
+}
+.help li a:hover{
+    color: gray;
+}
+.help a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#all {
+  font-family: 'Asap'; 
+}
+h2{
+     font-family: 'Oleo Script' cursive; 
+}
+p{
+    font-family: 'Asap' sans-serif;
+}
